@@ -44,12 +44,3 @@ shinyServer(function(input, output,session) {
     }})
   
 })
-#After calling your function, you can then access each of these with outlist$wholetable or outlist$temperature.
-
-
-
-# Sys.setlocale(locale="English") 
-#to publish you need this: rsconnect::setAccountInfo(name='summertemperature',token='2FE9675048EA3E82C210736C98A133BC',secret='<SECRET>')
-
-
-# call the lineplot data  tempseries=Web_FAR(deltaT=input$variableTemp,input$variableRegion)$tempseries
