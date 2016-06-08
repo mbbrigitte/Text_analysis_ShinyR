@@ -33,8 +33,7 @@ findkeys <- function(inputtext){
   #This sometimes happens when unwanted characters survive our cleaning procedure.
   
   # apply function getSentiment
-  db_key = 'b34707f84e4cde3cfdbe60d43dcdd589'
-  #db_key = '95cb2e2880d7a13b1d3d46c6e57275f2'
+  db_key = 'yourPersonalKey'
   # apply function getSentiment
   tmp = getSentiment(tweet_clean, db_key)
   
