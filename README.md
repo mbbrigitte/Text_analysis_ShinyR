@@ -1,7 +1,7 @@
 # Text analysis with ShinyR - Semantic analysis
 
 ## Short
-I published this app together with an article on [The Data Journalist](https://thedatajournalist.com/2016/02/12/basic-income/).
+I published this app together with an article on The Data Journalist, a blog with interesting data science analyses Stella Wu and I developed and entertained between 2014-2017.
 It is online at https://thedatajournalist.shinyapps.io/SentimentApp/ and worked as of June 8, 2016. On my last access date, October 5, 2026, the app still worked but the datumbox that is behind the analysis wasn't working any more. Due to the age of this app, I decided not to update that API key anymore. 
 
 The app analyzes a text, finds keywords, the topic and the sentiment. It uses the datumbox sentiment api.
